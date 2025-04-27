@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background-color: rgb(225, 238, 188);
+}
+
+.main-menu ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(50, 142, 110);
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu h2 a{
+    border-right: 1px solid #ffffff;
+    font-family: "IBM Plex Sans JP", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16pt;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    transition: all .3s;
+    display: block;
+    text-shadow: 3px 3px 5px rgba(14, 51, 29, 0.5)
+}
+
+.main-menu ul a:hover{
+    background-color: rgb(103, 174, 110);
+}
+
+.midashi{
+    font-family: "IBM Plex Sans JP", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30pt;
+    color: black;
+    text-align: center;
+}
+
+.box{
+    font-family: "IBM Plex Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+    color: #fff;
+    background-color: #67AE6E;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    border-radius: 30pt;
+
+}
+
+.main-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-box {
+    position: relative;
+    max-width: 1200px;
+    margin: 1.9em auto 0;
+    padding: 1em 1.5em;
+    border: 2px solid rgb(103, 174, 110);
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.blog-box span {
+    font-family: "IBM Plex Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: -1.9em;
+    left: -2px;
+    padding: .2em .8em;
+    border-radius: 5px 5px 0 0;
+    background-color: rgb(103, 174, 110);
+    color: #fff;
+    font-size: 16pt;
+}
+
+.blog-box p {
+    font-family: "IBM Plex Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    color: #000000;
+    font-size: 16pt;
+}
+
+.article-box {
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 2px solid rgb(103, 174, 110);
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.article-box span {
+    font-family: "IBM Plex Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em 0;
+    background-color: rgb(103, 174, 110);
+    color: #fff;
+    font-weight: 600;
+}
+
+.article-box p {
+    font-family: "IBM Plex Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 1em 1.5em;
+    font-family: "IBM Plex Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt;
+    color: #000000;
+}
